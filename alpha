@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+char c;
+printf("enter the character");
+scanf("%s",&c);
+if('a'<='z'&& 'A'<='Z')
+printf("it is a alphabet");
+else
+printf("it is not a alphabet");
+}
