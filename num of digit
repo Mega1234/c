@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+long long n;
+printf("enter the num");
+scanf("%d",&n);
+while(n!=0)
+{
+n/=10;
+++count;
+}
+getch();
+}
