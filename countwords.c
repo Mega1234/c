@@ -1,13 +1,13 @@
 #include<stdio.h>
 void main()
 {
-char a[10];
+char s[10];
 int i,count=0;
 printf("Enter the string:\n");
 gets(a);
-for(i=0;a[i]!='\0',i++)
+for(i=0;s[i]!='\0',i++)
 {
-if(a[i]=' ')
+if(s[i]=' ')
 {
 count++;
 }
