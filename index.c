@@ -1,5 +1,6 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+#include<conio.h>
+
 
 int main() {
 	int n=2,i,a[50];
