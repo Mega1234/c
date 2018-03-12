@@ -1,20 +1,20 @@
 #include<stdio.h>
 #include<string.h>
-int main(void)
+int main()
 
 {
-char s[100];
-gets(s);
-int k,i;
-k=strlen(s);
-for(i=0;i<k;i++)
+char a[100];
+gets(a);
+int n,i;
+n=strlen(a);
+for(i=0;i<n;i++)
 {
-	if(s[i]==' ')
+	if(a[i]==' ')
 	{
-		s[i+1]-=32;
+		a[i+1]-=32;
 	}
 }
-s[0]-=32;
-printf("%s",s);
+a[0]-=32;
+printf("%s",a);
 	return 0;
 }
