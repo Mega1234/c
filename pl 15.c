@@ -4,7 +4,7 @@ int main()
 {
 	char a[50],charact;
 	int i,j,count=1,max=1;
-	scanf("%a[^\n]s",a);
+	scanf("%[^\n]s",a);
 	for(i=0;a[i]!='\0';i++)
 	{
 		for(j=i+1;a[j]!='\0';j++)
