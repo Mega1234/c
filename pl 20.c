@@ -2,20 +2,20 @@
 
 int main(void) 
 {
-	char str[50];
+	char a[50];
 	int i,n;
-	scanf("%s",str);
-	n=strlen(str);
+	scanf("%s",a);
+	n=strlen(a);
 	for(i=0;i<n;i++)
 	{
-		str[i]=str[i]+3;
-		if(str[i]=='X')
-		str[i]='A';
-		if(str[i]=='Y')
-		str[i]='B';
-		if(str[i]=='Z')
-		str[i]='C';
+		a[i]=a[i]+3;
+		if(a[i]=='X')
+		a[i]='A';
+		if(a[i]=='Y')
+		a[i]='B';
+		if(a[i]=='Z')
+		a[i]='C';
 	}
-	printf("%s",str);
+	printf("%s",a);
 	return 0;
 }
